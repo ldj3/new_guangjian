@@ -1,0 +1,32 @@
+# Translation of Themes - vdperanto in Chinese (China)
+# This file is distributed under the same license as the Themes - vdperanto package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-17 13:29:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - vdperanto\n"
+
+#. Description of the plugin/theme
+msgid "A Business theme ideal for creating a corporate or business website. Vdperanto is a child theme of BusiProf WordPress Theme with a white background. Vdperanto is available in different locales."
+msgstr "一个创建企业或商业站点理想的商业主题。 BusiProf WordPress主题为父主题，Vdperanto是一个白色背景的子主题。 Vdperanto可用于在不同的语言环境上。"
+
+#. Theme Name of the plugin/theme
+msgid "vdperanto"
+msgstr "vdperanto"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webriti.com"
+msgstr "https://www.webriti.com"
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr "webriti"
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/vdperanto-details-page/"
+msgstr "https://webriti.com/vdperanto-details-page/"
