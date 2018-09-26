@@ -118,5 +118,30 @@ endif;
 	wp_add_inline_style( 'style', $custom_css );
 }
 
-add_action( 'wp_enqueue_scripts', 'busiprof_inline_style' );	
+add_action( 'wp_enqueue_scripts', 'busiprof_inline_style' );
+
+//百度站长的 JS 代码实现自动推送
+// add_action( 'wp_enqueue_scripts', 'fanly_baidu_zz_enqueue_scripts' );
+// function fanly_baidu_zz_enqueue_scripts(){
+//   wp_enqueue_script( 'baidu_zz_push', 'http://push.zhanzhang.baidu.com/push.js');
+// }
+
+//WordPress百度主动推送功能
+// add_action('save_post', 'fanly_save_post_notify_baidu_zz', 10, 3);
+// function fanly_save_post_notify_baidu_zz($post_id, $post, $update){
+// 	if($post->post_status != 'publish') {
+// 		return;	
+// 	}else{
+// 		$baidu_zz_api_url = 'http://data.zz.baidu.com/urls?site=your_site_url&token=your_token';
+// 	 //请到百度站长后台获取你的站点的专属提交链接
+// 		 $response = wp_remote_post($baidu_zz_api_url, array(
+// 		  'headers' => array('Accept-Encoding'=>'','Content-Type'=>'text/plain'),
+// 		  'sslverify' => false,
+// 		  'blocking' => false,
+// 		  'body' => get_permalink($post_id)
+// 		 ));
+// 	}
+// }
+
+
 ?>
