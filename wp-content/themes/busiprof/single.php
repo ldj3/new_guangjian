@@ -22,6 +22,9 @@ get_template_part('index', 'bannerstrip');
 						get_template_part( 'content','' );
 						
 					endwhile; endif;
+					//显示百度是否收录
+					echo checkBaidu(get_the_permalink());
+					//调用结束
 					?>
 					<!--Comments-->
 					<?php comments_template( '', true );?>

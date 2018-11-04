@@ -12,6 +12,8 @@ Screenshot Image URl: https://www.pexels.com/photo/people-brasil-guys-avpaulista
 Support
 -------
 Do you enjoy this theme? Send your ideas - issues - on the theme formn . Thank you!
+@Version 1.23
+1. Update String.
 @Version 1.22
 1. Remove subject tag.
 @Version 1.21

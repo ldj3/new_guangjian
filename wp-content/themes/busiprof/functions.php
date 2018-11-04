@@ -56,8 +56,9 @@
 		add_theme_support( 'customize-selective-refresh-widgets' );
 	/*
 	 * Let WordPress manage the document title.
+	 * 增加头部标题功能
 	 */
-	add_theme_support( 'title-tag' );
+	//add_theme_support( 'title-tag' );
 	
 	// supports featured image
 	add_theme_support( 'post-thumbnails' );
@@ -142,6 +143,29 @@ add_action( 'wp_enqueue_scripts', 'busiprof_inline_style' );
 // 		 ));
 // 	}
 // }
+
+
+//删除wp_head()中的title标签
+// remove_action( 'wp_head', '_wp_render_title_tag', 1 );
+// add_filter( 'get_the_archive_title', function ($title) {
+
+// if ( is_category() ) {
+
+//         $title = single_cat_title( '', false );
+
+//     } elseif ( is_tag() ) {
+
+//         $title = single_tag_title( '', false );
+
+//     } elseif ( is_author() ) {
+
+//         $title = '<span class="vcard">' . get_the_author() . '</span>' ;
+
+//     }
+
+// return $title;
+
+// });
 
 
 ?>

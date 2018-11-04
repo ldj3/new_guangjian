@@ -21,9 +21,9 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/Applications/MAMP/htdocs/guangjian/wp-content/plugins/wp-super-cache/' );
+define( 'WPCACHEHOME', '/opt/new_guangjian/wp-content/plugins/wp-super-cache/' );
 define('DB_NAME', 'new_guangjian');
-
+define('WP_ALLOW_REPAIR','true');
 /** MySQL database username */
 define('DB_USER', 'root');
 
@@ -82,7 +82,7 @@ $table_prefix  = 'gj_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 

@@ -689,6 +689,12 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 			$output = get_option('blog_charset');
 			if ('' == $output) $output = 'UTF-8';
 			break;
+		case 'blog_name_p1':
+			$output = '迎接变化 勇于创新';
+			break;
+		case 'blog_name_p2':
+			$output = '专业执着 精益求精';
+			break;
 		case 'html_type' :
 			$output = get_option('html_type');
 			break;

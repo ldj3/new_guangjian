@@ -9,7 +9,9 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 		<ul class="slides">
 				<li>
 					<img alt="img" src="<?php echo esc_url($current_options['slider_image']); ?>" />
-					<div class="container">
+					<!-- 轮播图效果 -->
+					<!--	<?php echo do_shortcode("[metaslider id=241]");?>	-->
+<!-- 					<div class="container">
 						<div class="slide-caption">
 							<?php if($current_options['caption_head']!='') {?>
 							<h2><?php echo esc_html($current_options['caption_head']); ?></h2>
@@ -23,7 +25,7 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 							</div>
 							<?php }?>
 						</div>		
-					</div>
+					</div> -->
 				</li>
 			</ul>		
 	</section>

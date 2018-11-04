@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: vdperanto\n"
-"POT-Creation-Date: 2018-08-01 17:54+0530\n"
-"PO-Revision-Date: 2018-08-01 17:54+0530\n"
+"POT-Creation-Date: 2018-10-23 18:13+0530\n"
+"PO-Revision-Date: 2018-10-23 18:10+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,16 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:22 functions/customizer/custo_general_settings.php:5
+msgid ""
+"<a href=\"https://wordpress.org\">Proudly powered by WordPress</a> | Theme: "
+"<a href=\"https://webriti.com\" rel=\"designer\">vdperanto</a> by Webriti"
+msgstr ""
+
+#: functions/customizer/custo_general_settings.php:8
+msgid "Copyright text"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "vdperanto"

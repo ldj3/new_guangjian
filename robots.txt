@@ -1,0 +1,3 @@
+ User-agent: *  Disallow: /wp-* 
+ Disallow: /?s=  
+Sitemap: http://www.gz-guangjian.com/sitemap.php

@@ -5,16 +5,21 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$cache_badbehaviour_file = '';
+$cache_badbehaviour = 0;
+$cache_awaitingmoderation = '1';
+$cache_jetpack = '1';
+$cache_wptouch = '1';
 $wp_cache_debug_username = 'b4e3dff39273d6e399b647c7a9bdad17';
 $wp_cache_mobile_groups = '';
 $wp_cache_home_path = '/';
-$wp_cache_slash_check = 1;
+$wp_cache_slash_check = 0;
 $cache_page_secret = '68c99a667f0238ecf6daca5885ecc3e0';
 $cache_time_interval = 600;
 if ( ! defined('WPCACHEHOME') )
 	define( 'WPCACHEHOME', WP_CONTENT_DIR . "/plugins/wp-super-cache/" );
 
-$cache_compression = 1;
+$cache_compression = 0;
 $cache_enabled = true;
 $super_cache_enabled = true;
 $cache_max_time = 1800;
@@ -27,7 +32,7 @@ $ossdlcdn = 0;
 $cache_acceptable_files = array( 'wp-comments-popup.php', 'wp-links-opml.php', 'wp-locations.php' );
 
 $cache_rejected_uri = array('wp-.*\\.php', 'index\\.php');
-$cache_rejected_user_agent = array ( 0 => 'bot', 1 => 'ia_archive', 2 => 'slurp', 3 => 'crawl', 4 => 'spider', 5 => 'Yandex' );
+$cache_rejected_user_agent = array ( 0 => 'bot', 1 => 'ia_archive', 2 => 'slurp', 3 => 'crawl', 4 => 'spider', 5 => 'Yandex', 6 => 'iPhone', 7 => 'iPod', 8 => 'Android', 9 => 'BB10', 10 => 'BlackBerry', 11 => 'webOS', 12 => 'IEMobile/7.0', 13 => 'IEMobile/9.0', 14 => 'IEMobile/10.0', 15 => 'MSIE 10.0', 16 => 'iPad', 17 => 'PlayBook', 18 => 'Xoom ', 19 => 'P160U', 20 => 'SCH-I800', 21 => 'Nexus 7', 22 => 'Touch', );
 
 $cache_rebuild_files = 1;
 
@@ -85,7 +90,7 @@ $wp_cache_clear_on_post_edit = 0;
 $wp_cache_hello_world = 0;
 $wp_cache_mobile_enabled = 1;
 $wp_cache_cron_check = 1;
-$wp_cache_mfunc_enabled = 0;
+$wp_cache_mfunc_enabled = 1;
 $wp_cache_make_known_anon = 0;
 $wp_cache_refresh_single_only = 0;
 $wp_cache_mod_rewrite = 0;
@@ -101,7 +106,7 @@ $wp_cache_preload_on = 0;
 $wp_cache_preload_taxonomies = 1;
 $wp_cache_preload_email_me = 0;
 $wp_cache_preload_email_volume = 'none';
-$wp_cache_mobile_prefixes = 'w3c , w3c-, acs-, alav, alca, amoi, audi, avan, benq, bird, blac, blaz, brew, cell, cldc, cmd-, dang, doco, eric, hipt, htc_, inno, ipaq, ipod, jigs, kddi, keji, leno, lg-c, lg-d, lg-g, lge-, lg/u, maui, maxo, midp, mits, mmef, mobi, mot-, moto, mwbp, nec-, newt, noki, palm, pana, pant, phil, play, port, prox, qwap, sage, sams, sany, sch-, sec-, send, seri, sgh-, shar, sie-, siem, smal, smar, sony, sph-, symb, t-mo, teli, tim-, tosh, tsm-, upg1, upsi, vk-v, voda, wap-, wapa, wapi, wapp, wapr, webc, winw, winw, xda , xda-';
+$wp_cache_mobile_prefixes = '';
 $cached_direct_pages = array(  );
 $wpsc_served_header = false;
 $cache_gc_email_me = 0;
